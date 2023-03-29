@@ -1,0 +1,17 @@
+Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
+1,"CUR_CLM_UNIQ
+_ID",Current Claim Unique Identifier,1,13,13,9(13),14
+2,BENE_MBI_ID,Medicare Beneficiary Identifier,14,24,11,X(11),26
+3,BENE_HIC_NUM,Beneficiary HIC Number,25,35,11,X(11),38
+4,CLM_TYPE_CD,Claim Type Code,36,37,2,9(02),41
+5,CLM_PROD_TYP E_CD,Claim Product Type Code,38,38,1,X(01),43
+6,"CLM_VAL_SQNC
+_NUM",Claim Value Sequence Number,39,40,2,9(2),46
+7,CLM_DGNS_CD,Diagnosis Code,41,47,7,X(07),54
+8,BENE_EQTBL_BI C_HICN_NUM,Beneficiary Equitable BIC HICN Number,48,58,11,X(11),66
+9,PRVDR_OSCAR_ NUM,Provider OSCAR Number,59,64,6,X(6),73
+10,CLM_FROM_DT,Claim From Date,65,74,10,YYYY- MM-DD,84
+11,CLM_THRU_DT,Claim Thru Date,75,84,10,YYYY- MM-DD,95
+12,CLM_POA_IND,Claim Present- on-Admission Indicator,85,91,7,X(7),103
+13,DGNS_PRCDR_I CD_IND,ICD Version Indicator,92,92,1,X(1),105
+14,CLM_BLG_PRVD R_OSCAR_NUM,Claim Provider OSCAR Number,93,112,20,X(20),126

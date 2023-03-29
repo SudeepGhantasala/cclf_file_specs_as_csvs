@@ -1,0 +1,10 @@
+Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
+1,"HICN_MBI_XREF
+_IND…",HICN/MBI XREF-Indicator…,1,1,1,X(1),2
+2,CRNT_NUM,Current Beneficiary Identifier,2,12,11,X(11),14
+3,PRVS_NUM,Previous Beneficiary Identifier,13,23,11,X(11),26
+4,"PRVS_ID_EFCTV
+_DT",Previous Identifier Effective Date,24,33,10,YYYY- MM-DD,37
+5,"PRVS_ID_OBSLT
+_DT",Previous Identifier Obsolete Date,34,43,10,YYYY- MM-DD,48
+6,BENE_RRB_NUM,Beneficiary Railroad Board Number,44,55,12,X(12),61

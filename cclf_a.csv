@@ -1,0 +1,38 @@
+Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
+1,"CUR_CLM_UNIQ
+_ID",Current Claim Unique Identifier,1,13,13,9(13),14
+2,BENE_MBI_ID,Medicare Beneficiary Identifier,14,24,11,X(11),26
+3,BENE_HIC_NUM,Beneficiary HIC Number,25,35,11,X(11),38
+4,CLM_TYPE_CD,Claim Type Code,36,37,2,9(02),41
+5,CLM_ACTV_CA RE_FROM_DT,Claim Admission Date,38,47,10,YYYY-MM- DD,52
+6,CLM_NGACO_P BPMT_SW,PBP Benefit Enhancement Indicator,48,48,1,X(1),54
+7,"CLM_NGACO_P DSCHRG_HCBS
+_SW",Post Discharge Home Visit Benefit Enhancement Indicator,49,49,1,X(1),56
+8,CLM_NGACO_S NF_WVR_SW,SNF 3-Day Waiver Benefit Enhancement Indicator,50,50,1,X(1),58
+9,CLM_NGACO_T LHLTH_SW,Telehealth Benefit Enhancement Indicator,51,51,1,X(1),60
+10,CLM_NGACO_C PTATN_SW,AIPBP Benefit Enhancement Indicator,52,52,1,X(1),62
+11,CLM_DEMO_1S T_NUM,First Program Demonstration Number,53,54,2,X(2),65
+12,CLM_DEMO_2N D_NUM,Second Program Demonstration Number,55,56,2,X(2),68
+13,CLM_DEMO_3R D_NUM,Third Program Demonstration Number,57,58,2,X(2),71
+14,CLM_DEMO_4T H_NUM,Fourth Program Demonstration Number,59,60,2,X(2),74
+15,CLM_DEMO_5T H_NUM,Fifth Program Demonstration Number,61,62,2,X(2),77
+16,CLM_PBP_INCL SN_AMT,PBP/AIPBP-Inclusion Amount,63,81,19,-9(15).99,97
+17,CLM_PBP_RDC TN_AMT,PBP/AIPBP-Reduction Amount,82,100,19,-9(15).99,117
+18,CLM_NGACO_C MG_WVR_SW,Care Management Home Visits,101,101,1,X(1),119
+19,CLM_INSTNL_P ER_DIEM_AMT,Claim Institutional Per Diem Amount,102,120,19,-9(15).99,139
+20,CLM_MDCR_IP_ BENE_DDCTBL_ AMT,Claim Medicare Inpatient Beneficiary Deductible Amount,121,135,15,-9(11).99,155
+21,CLM_MDCR_CO INSRNC_AMT,Claim Medicare Coinsurance Amount,136,154,19,-9(15).99,175
+22,CLM_BLOOD_L BLTY_AMT,Claim Blood Liability Amount,155,169,15,-9(11).99,191
+23,CLM_INSTNL_P RFNL_AMT,Claim Institutional Professional Amount,170,184,15,-9(11).99,207
+24,CLM_NCVRD_C HRG_AMT,Claim Noncovered Charge Amount,185,203,19,-9(15).99,227
+25,CLM_MDCR_DD CTBL_AMT,Claim Medicare Deductible Amount,204,222,19,-9(15).99,247
+26,CLM_RLT_CON D_CD,Claim Related Condition Code Periodic interim payments (PIP) - 62,223,224,2,X(2),250
+27,CLM_OPRTNL_ OUTLR_AMT,Operating Outlier Amount (DSH) -17,225,243,19,-9(15).99,270
+28,CLM_MDCR_NE W_TECH_AMT,Medicare new technology add-on payment -77,244,262,19,-9(15).99,290
+29,CLM_ISLET_ISO LN_AMT,Islet Isolation Add- on payment amount-- Q7,263,281,19,-9(15).99,310
+30,"CLM_SQSTRTN
+_RDCTN_AMT",Part A Sequestration reduction amounts - 73,282,300,19,-9(15).99,330
+31,CLM_1_REV_CN TR_ANSI_RSN_ CD,claim adjustment reason code (CARC),301,303,3,X(3),334
+32,CLM_1_REV_CN TR_ANSI_GRP_ CD,Claim Adjustment Segment (CAS) Group Code,304,305,2,X(2),337
+33,"CLM_MIPS_PMT
+_AMT",Capital MIPS payment costs,306,324,19,-9(15).99,357

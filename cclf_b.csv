@@ -1,0 +1,30 @@
+Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
+1,"CUR_CLM_UNIQ
+_ID",Current Claim Unique Identifier,1,13,13,9(13),14
+2,CLM_LINE_NUM,Claim Line Number,14,23,10,9(10),25
+3,BENE_MBI_ID,Medicare Beneficiary Identifier,24,34,11,X(11),37
+4,BENE_HIC_NUM,Beneficiary HIC Number,35,45,11,X(11),49
+5,CLM_TYPE_CD,Claim Type Code,46,47,2,9(02),52
+6,CLM_LINE_NGAC O_PBPMT_SW,PBP Benefit Enhancement Indicator,48,48,1,X(1),54
+7,CLM_LINE_NGAC O_PDSCHRG_HC BS_SW,Post Discharge Home Visit Benefit Enhancement Indicator,49,49,1,X(1),56
+8,CLM_LINE_NGAC O_SNF_WVR_SW,SNF 3-Day-Waiver Benefit Enhancement Indicator,50,50,1,X(1),58
+9,CLM_LINE_NGAC O_TLHLTH_SW,Telehealth Benefit Enhancement Indicator,51,51,1,X(1),60
+10,CLM_LINE_NGAC O_CPTATN_SW,AIPBP Benefit Enhancement Indicator,52,52,1,X(1),62
+11,"CLM_DEMO_1ST
+_NUM",First Program Demonstration Number,53,54,2,X(2),65
+12,"CLM_DEMO_2ND
+_NUM",Second Program Demonstration Number,55,56,2,X(2),68
+13,"CLM_DEMO_3RD
+_NUM",Third Program Demonstration Number,57,58,2,X(2),71
+14,"CLM_DEMO_4TH
+_NUM",Fourth Program Demonstration Number,59,60,2,X(2),74
+15,"CLM_DEMO_5TH
+_NUM",Fifth Program Demonstration Number,61,62,2,X(2),77
+16,CLM_PBP_INCLS N_AMT,PBP/AIPBP-Inclusion Amount,63,77,15,-9(11).99,93
+17,CLM_PBP_RDCT N_AMT,PBP/AIPBP-Reduction Amount,78,92,15,-9(11).99,109
+18,CLM_NGACO_C MG_WVR_SW,Care Management Home Visits,93,93,1,X(1),111
+19,CLM_MDCR_DDC TBL_AMT,Claim Medicare Deductible Amount,94,112,19,-9(15).99,131
+20,CLM_SQSTRTN_ RDCTN_AMT,Part B Sequestration reduction amounts,113,127,15,-9(11).99,147
+21,"CLM_LINE_CARR
+_HPSA_SCRCTY
+_CD",Claim Line Carrier Health Professional Shortage Area Scarcity Code,128,128,1,X(1),149

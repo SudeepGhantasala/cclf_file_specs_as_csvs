@@ -1,0 +1,33 @@
+Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
+1,"CUR_CLM_UNIQ
+_ID",Current Claim Unique Identifier,1,13,13,9(13),14
+2,CLM_LINE_NUM,Claim Line Number,14,23,10,9(10),25
+3,BENE_MBI_ID,Medicare Beneficiary Identifier,24,34,11,X(11),37
+4,BENE_HIC_NUM,Beneficiary HIC Number,35,45,11,X(11),49
+5,CLM_TYPE_CD,Claim Type Code,46,47,2,9(02),52
+6,CLM_FROM_DT,Claim From Date,48,57,10,YYYY- MM-DD,63
+7,CLM_THRU_DT,Claim Thru Date,58,67,10,YYYY- MM-DD,74
+8,CLM_FED_TYPE_ SRVC_CD,Claim Federal Type Service Code,68,68,1,X(01),76
+9,CLM_POS_CD,Claim Place of Service Code,69,70,2,X(02),79
+10,"CLM_LINE_FROM
+_DT",Claim Line From Date,71,80,10,YYYY- MM-DD,90
+11,"CLM_LINE_THRU
+_DT",Claim Line Thru Date,81,90,10,YYYY- MM-DD,101
+12,CLM_LINE_HCPC S_CD,HCPCS Code,91,95,5,X(05),107
+13,"CLM_LINE_CVRD
+_PD_AMT",Claim Line NCH Payment Amount,96,110,15,-9(11).99,123
+14,CLM_PRMRY_PY R_CD,Claim Primary Payer Code,111,111,1,X(01),125
+15,PAYTO_PRVDR_ NPI_NUM,Pay-to Provider NPI Number,112,121,10,X(10),136
+16,ORDRG_PRVDR_ NPI_NUM,Ordering Provider NPI Number,122,131,10,X(10),147
+17,"CLM_CARR_PMT
+_DNL_CD",Claim Carrier Payment Denial Code,132,133,2,X(02),150
+18,CLM_PRCSG_IN D_CD,Claim Processing Indicator Code,134,135,2,X(02),153
+19,CLM_ADJSMT_T YPE_CD,Claim Adjustment Type Code,136,137,2,X(02),156
+20,CLM_EFCTV_DT,Claim Effective Date,138,147,10,YYYY- MM-DD,167
+21,CLM_IDR_LD_DT,Claim IDR Load Date,148,157,10,YYYY- MM-DD,178
+22,CLM_CNTL_NUM,Claim Control Number,158,197,40,X(40),219
+23,BENE_EQTBL_BI C_HICN_NUM,Beneficiary Equitable BIC HICN Number,198,208,11,X(11),231
+24,CLM_LINE_ALOW D_CHRG_AMT,Claim Line Allowed Charges Amount,209,225,17,-9(14).99,249
+25,CLM_DISP_CD,Claim Disposition Code,226,227,2,X(2),252
+26,CLM_BLG_PRVD R_NPI_NUM,Claim Pay-to Provider NPI Number,228,237,10,X(10),263
+27,CLM_RFRG_PRV DR_NPI_NUM,Claim Ordering Provider NPI Number,238,247,10,X(10),274
