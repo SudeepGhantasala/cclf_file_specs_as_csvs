@@ -1,15 +1,15 @@
 Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
-1,CUR_CLM_UNIQ_ID,Current Claim Unique Identifier,1,13,13,9(13),14
-2,BENE_MBI_ID,Medicare Beneficiary Identifier,14,24,11,X(11),26
-3,BENE_HIC_NUM,Beneficiary HIC Number,25,35,11,X(11),38
-4,CLM_TYPE_CD,Claim Type Code,36,37,2,9(02),41
-5,CLM_VAL_SQNC_NU M,Claim Value Sequence Number,38,39,2,9(2),44
-6,CLM_PRCDR_CD,Procedure Code,40,46,7,X(07),52
+1,CUR_CLM_UNIQ_ID,Current Claim Unique Identifier,1,13,13,9(13),13
+2,BENE_MBI_ID,Medicare Beneficiary Identifier,14,24,11,X(11),25
+3,BENE_HIC_NUM,Beneficiary HIC Number,25,35,11,X(11),37
+4,CLM_TYPE_CD,Claim Type Code,36,37,2,9(02),40
+5,CLM_VAL_SQNC_NU M,Claim Value Sequence Number,38,39,2,9(2),43
+6,CLM_PRCDR_CD,Procedure Code,40,46,7,X(07),51
 7,"CLM_PRCDR_PRFRM
-_DT",Procedure Performed Date,47,56,10,YYYY- MM-DD,63
-8,BENE_EQTBL_BIC_HI CN_NUM,Beneficiary Equitable BIC HICN-Number,57,67,11,X(11),75
-9,PRVDR_OSCAR_NUM,Provider OSCAR-Number,68,73,6,X(6),82
-10,CLM_FROM_DT,Claim From Date,74,83,10,YYYY- MM-DD,93
-11,CLM_THRU_DT,Claim Thru Date,84,93,10,YYYY- MM-DD,104
-12,DGNS_PRCDR_ICD_I ND,ICD Version Indicator,94,94,1,X(1),106
-13,CLM_BLG_PRVDR_O SCAR_NUM,Claim Provider OSCAR-Number,95,114,20,X(20),127
+_DT",Procedure Performed Date,47,56,10,YYYY- MM-DD,62
+8,BENE_EQTBL_BIC_HI CN_NUM,Beneficiary Equitable BIC HICN-Number,57,67,11,X(11),74
+9,PRVDR_OSCAR_NUM,Provider OSCAR-Number,68,73,6,X(6),81
+10,CLM_FROM_DT,Claim From Date,74,83,10,YYYY- MM-DD,92
+11,CLM_THRU_DT,Claim Thru Date,84,93,10,YYYY- MM-DD,103
+12,DGNS_PRCDR_ICD_I ND,ICD Version Indicator,94,94,1,X(1),105
+13,CLM_BLG_PRVDR_O SCAR_NUM,Claim Provider OSCAR-Number,95,114,20,X(20),126

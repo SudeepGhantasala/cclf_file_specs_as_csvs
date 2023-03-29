@@ -1,51 +1,51 @@
 Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
-1,CUR_CLM_UNIQ_ID,Current Claim Unique Identifier,1,13,13,9(13),14
-2,PRVDR_OSCAR_NU M,Provider OSCAR-Number,14,19,6,X(06),21
-3,BENE_MBI_ID,Medicare Beneficiary Identifier,20,30,11,X(11),33
-4,BENE_HIC_NUM,Beneficiary HIC Number,31,41,11,X(11),45
-5,CLM_TYPE_CD,Claim Type Code,42,43,2,9(02),48
-6,CLM_FROM_DT,Claim From Date,44,53,10,YYYY-MM- DD,59
-7,CLM_THRU_DT,Claim Thru Date,54,63,10,YYYY-MM- DD,70
-8,CLM_BILL_FAC_TY PE_CD,Claim Bill Facility Type Code,64,64,1,X(01),72
-9,CLM_BILL_CLSFCT N_CD,Claim Bill Classificatio n Code,65,65,1,X(01),74
-10,PRNCPL_DGNS_CD,Principal Diagnosis Code,66,72,7,X(07),82
-11,ADMTG_DGNS_CD,Admitting Diagnosis Code,73,79,7,X(07),90
-12,CLM_MDCR_NPMT_ RSN_CD,Claim Medicare Non- Payment Reason Code,80,81,2,X(02),93
-13,CLM_PMT_AMT,Claim Payment Amount,82,98,17,-9(13).99,111
-14,CLM_NCH_PRMRY_ PYR_CD,Claim NCH Primary Payer Code,99,99,1,X(01),113
-15,PRVDR_FAC_FIPS_ ST_CD,Federal Information Processing Standards (FIPS) State Code,100,101,2,X(02),116
-16,BENE_PTNT_STUS_ CD,Beneficiary Patient Status Code,102,103,2,X(02),119
-17,DGNS_DRG_CD,Diagnosis Related Group Code,104,107,4,X(04),124
-18,CLM_OP_SRVC_TY PE_CD,Claim Outpatient Service Type Code,108,108,1,X(01),126
-19,FAC_PRVDR_NPI_N UM,Facility Provider NPI Number,109,118,10,X(10),137
-20,OPRTG_PRVDR_NP I_NUM,Operating Provider NPI Number,119,128,10,X(10),148
-21,ATNDG_PRVDR_NP I_NUM,Attending Provider NPI Number,129,138,10,X(10),159
-22,OTHR_PRVDR_NPI_ NUM,Other Provider NPI Number,139,148,10,X(10),170
-23,CLM_ADJSMT_TYP E_CD,Claim Adjustment Type Code,149,150,2,X(02),173
-24,CLM_EFCTV_DT,Claim Effective Date,151,160,10,YYYY-MM- DD,184
-25,CLM_IDR_LD_DT,Claim IDR Load Date,161,170,10,YYYY-MM- DD,195
-26,BENE_EQTBL_BIC_ HICN_NUM,Beneficiary Equitable BIC HICN-Number,171,181,11,X(11),207
+1,CUR_CLM_UNIQ_ID,Current Claim Unique Identifier,1,13,13,9(13),13
+2,PRVDR_OSCAR_NU M,Provider OSCAR-Number,14,19,6,X(06),20
+3,BENE_MBI_ID,Medicare Beneficiary Identifier,20,30,11,X(11),32
+4,BENE_HIC_NUM,Beneficiary HIC Number,31,41,11,X(11),44
+5,CLM_TYPE_CD,Claim Type Code,42,43,2,9(02),47
+6,CLM_FROM_DT,Claim From Date,44,53,10,YYYY-MM- DD,58
+7,CLM_THRU_DT,Claim Thru Date,54,63,10,YYYY-MM- DD,69
+8,CLM_BILL_FAC_TY PE_CD,Claim Bill Facility Type Code,64,64,1,X(01),71
+9,CLM_BILL_CLSFCT N_CD,Claim Bill Classificatio n Code,65,65,1,X(01),73
+10,PRNCPL_DGNS_CD,Principal Diagnosis Code,66,72,7,X(07),81
+11,ADMTG_DGNS_CD,Admitting Diagnosis Code,73,79,7,X(07),89
+12,CLM_MDCR_NPMT_ RSN_CD,Claim Medicare Non- Payment Reason Code,80,81,2,X(02),92
+13,CLM_PMT_AMT,Claim Payment Amount,82,98,17,-9(13).99,110
+14,CLM_NCH_PRMRY_ PYR_CD,Claim NCH Primary Payer Code,99,99,1,X(01),112
+15,PRVDR_FAC_FIPS_ ST_CD,Federal Information Processing Standards (FIPS) State Code,100,101,2,X(02),115
+16,BENE_PTNT_STUS_ CD,Beneficiary Patient Status Code,102,103,2,X(02),118
+17,DGNS_DRG_CD,Diagnosis Related Group Code,104,107,4,X(04),123
+18,CLM_OP_SRVC_TY PE_CD,Claim Outpatient Service Type Code,108,108,1,X(01),125
+19,FAC_PRVDR_NPI_N UM,Facility Provider NPI Number,109,118,10,X(10),136
+20,OPRTG_PRVDR_NP I_NUM,Operating Provider NPI Number,119,128,10,X(10),147
+21,ATNDG_PRVDR_NP I_NUM,Attending Provider NPI Number,129,138,10,X(10),158
+22,OTHR_PRVDR_NPI_ NUM,Other Provider NPI Number,139,148,10,X(10),169
+23,CLM_ADJSMT_TYP E_CD,Claim Adjustment Type Code,149,150,2,X(02),172
+24,CLM_EFCTV_DT,Claim Effective Date,151,160,10,YYYY-MM- DD,183
+25,CLM_IDR_LD_DT,Claim IDR Load Date,161,170,10,YYYY-MM- DD,194
+26,BENE_EQTBL_BIC_ HICN_NUM,Beneficiary Equitable BIC HICN-Number,171,181,11,X(11),206
 27,"CLM_ADMSN_TYPE
-_CD",Claim Admission Type Code,182,183,2,X(2),210
-28,CLM_ADMSN_SRC_ CD,Claim Admission Source Code,184,185,2,X(2),213
-29,CLM_BILL_FREQ_C D,Claim Bill Frequency Code,186,186,1,X(1),215
-30,CLM_QUERY_CD,Claim Query Code,187,187,1,X(1),217
+_CD",Claim Admission Type Code,182,183,2,X(2),209
+28,CLM_ADMSN_SRC_ CD,Claim Admission Source Code,184,185,2,X(2),212
+29,CLM_BILL_FREQ_C D,Claim Bill Frequency Code,186,186,1,X(1),214
+30,CLM_QUERY_CD,Claim Query Code,187,187,1,X(1),216
 31,"DGNS_PRCDR_ICD
-_IND",ICD Version Indicator,188,188,1,X(1),219
-32,CLM_MDCR_INSTN L_TOT_CHRG_AMT,Total Claim Charge Amount,189,203,15,-9(11).99,235
+_IND",ICD Version Indicator,188,188,1,X(1),218
+32,CLM_MDCR_INSTN L_TOT_CHRG_AMT,Total Claim Charge Amount,189,203,15,-9(11).99,234
 33,"CLM_MDCR_IP_PPS
-_CPTL_IME_AMT",Claim Capital Indirect Medical Education Amount,204,218,15,-9(11).99,251
-34,CLM_OPRTNL_IME_ AMT,Claim Operational Indirect Medical Education Amount,219,240,22,-9(18).99,274
+_CPTL_IME_AMT",Claim Capital Indirect Medical Education Amount,204,218,15,-9(11).99,250
+34,CLM_OPRTNL_IME_ AMT,Claim Operational Indirect Medical Education Amount,219,240,22,-9(18).99,273
 35,"CLM_MDCR_IP_PPS
-_DSPRPRTNT_AMT",Claim Capital Disproportio nate Amount,241,255,15,-9(11).99,290
-36,CLM_HIPPS_UNCO MPD_CARE_AMT,Claim Health Insurance Prospective Payment System Uncompens ated Care Amount,256,270,15,-9(11).99,306
-37,CLM_OPRTNL_DSP RPRTNT_AMT,Claim Operational disproportio nate Amount,271,292,22,-9(18).99,329
-38,CLM_BLG_PRVDR_ OSCAR_NUM,Claim Provider OSCAR-number,293,312,20,x(20),350
-39,CLM_BLG_PRVDR_ NPI_NUM,Claim Facility Provider NPI Number,313,322,10,x(10),361
-40,CLM_OPRTG_PRVD R_NPI_NUM,Claim Operating Provider NPI Number,323,332,10,x(10),372
-41,CLM_ATNDG_PRVD R_NPI_NUM,Claim Attending Provider NPI Number,333,342,10,x(10),383
+_DSPRPRTNT_AMT",Claim Capital Disproportio nate Amount,241,255,15,-9(11).99,289
+36,CLM_HIPPS_UNCO MPD_CARE_AMT,Claim Health Insurance Prospective Payment System Uncompens ated Care Amount,256,270,15,-9(11).99,305
+37,CLM_OPRTNL_DSP RPRTNT_AMT,Claim Operational disproportio nate Amount,271,292,22,-9(18).99,328
+38,CLM_BLG_PRVDR_ OSCAR_NUM,Claim Provider OSCAR-number,293,312,20,x(20),349
+39,CLM_BLG_PRVDR_ NPI_NUM,Claim Facility Provider NPI Number,313,322,10,x(10),360
+40,CLM_OPRTG_PRVD R_NPI_NUM,Claim Operating Provider NPI Number,323,332,10,x(10),371
+41,CLM_ATNDG_PRVD R_NPI_NUM,Claim Attending Provider NPI Number,333,342,10,x(10),382
 42,"CLM_OTHR_PRVDR
-_NPI_NUM",Claim Other Provider NPI Number,343,352,10,x(10),394
-43,CLM_CNTL_NUM,Claim Control Number,353,392,40,x(40),435
-44,CLM_ORG_CNTL_N UM,Claim Original Control Number,393,432,40,x(40),476
-45,CLM_CNTRCTR_NU M,Claim Contractor Number,433,437,5,x(5),482
+_NPI_NUM",Claim Other Provider NPI Number,343,352,10,x(10),393
+43,CLM_CNTL_NUM,Claim Control Number,353,392,40,x(40),434
+44,CLM_ORG_CNTL_N UM,Claim Original Control Number,393,432,40,x(40),475
+45,CLM_CNTRCTR_NU M,Claim Contractor Number,433,437,5,x(5),481

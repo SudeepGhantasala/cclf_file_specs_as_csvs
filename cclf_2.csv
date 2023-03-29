@@ -1,25 +1,25 @@
 Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
-1,CUR_CLM_UNIQ_ID,Current Claim Unique Identifier,1,13,13,9(13),14
-2,CLM_LINE_NUM,Claim Line Number,14,23,10,9(10),25
-3,BENE_MBI_ID,Medicare Beneficiary Identifier,24,34,11,X(11),37
-4,BENE_HIC_NUM,Beneficiary HIC Number,35,45,11,X(11),49
-5,CLM_TYPE_CD,Claim Type Code,46,47,2,9(02),52
-6,CLM_LINE_FROM_DT,Claim Line From Date,48,57,10,YYYY-MM- DD,63
-7,CLM_LINE_THRU_DT,Claim Line Thru Date,58,67,10,YYYY-MM- DD,74
-8,CLM_LINE_PROD_RE V_CTR_CD,Product Revenue Center Code,68,71,4,X(04),79
-9,CLM_LINE_INSTNL_R EV_CTR_DT,Claim Line Institutional Revenue Center Date,72,81,10,YYYY-MM- DD,90
-10,CLM_LINE_HCPCS_C D,HCPCS-Code,82,86,5,X(05),96
-11,BENE_EQTBL_BIC_HI CN_NUM,Beneficiary Equitable BIC HICN-Number,87,97,11,X(11),108
-12,PRVDR_OSCAR_NUM,Provider OSCAR-Number,98,103,6,X(6),115
-13,CLM_FROM_DT,Claim From Date,104,113,10,YYYY-MM- DD,126
-14,CLM_THRU_DT,Claim Thru Date,114,123,10,YYYY-MM- DD,137
-15,CLM_LINE_SRVC_UN IT_QTY,Claim Line Service Unit Quantity,124,147,24,-9(18).9999,162
+1,CUR_CLM_UNIQ_ID,Current Claim Unique Identifier,1,13,13,9(13),13
+2,CLM_LINE_NUM,Claim Line Number,14,23,10,9(10),24
+3,BENE_MBI_ID,Medicare Beneficiary Identifier,24,34,11,X(11),36
+4,BENE_HIC_NUM,Beneficiary HIC Number,35,45,11,X(11),48
+5,CLM_TYPE_CD,Claim Type Code,46,47,2,9(02),51
+6,CLM_LINE_FROM_DT,Claim Line From Date,48,57,10,YYYY-MM- DD,62
+7,CLM_LINE_THRU_DT,Claim Line Thru Date,58,67,10,YYYY-MM- DD,73
+8,CLM_LINE_PROD_RE V_CTR_CD,Product Revenue Center Code,68,71,4,X(04),78
+9,CLM_LINE_INSTNL_R EV_CTR_DT,Claim Line Institutional Revenue Center Date,72,81,10,YYYY-MM- DD,89
+10,CLM_LINE_HCPCS_C D,HCPCS-Code,82,86,5,X(05),95
+11,BENE_EQTBL_BIC_HI CN_NUM,Beneficiary Equitable BIC HICN-Number,87,97,11,X(11),107
+12,PRVDR_OSCAR_NUM,Provider OSCAR-Number,98,103,6,X(6),114
+13,CLM_FROM_DT,Claim From Date,104,113,10,YYYY-MM- DD,125
+14,CLM_THRU_DT,Claim Thru Date,114,123,10,YYYY-MM- DD,136
+15,CLM_LINE_SRVC_UN IT_QTY,Claim Line Service Unit Quantity,124,147,24,-9(18).9999,161
 16,"CLM_LINE_CVRD_PD
-_AMT",Claim Line Covered Paid Amount,148,164,17,-9(13).99,180
-17,HCPCS_1_MDFR_CD,HCPCS-First Modifier Code,165,166,2,X(2),183
-18,HCPCS_2_MDFR_CD,HCPCS-Second Modifier Code,167,168,2,X(2),186
-19,HCPCS_3_MDFR_CD,HCPCS-Third Modifier Code,169,170,2,X(2),189
-20,HCPCS_4_MDFR_CD,HCPCS-Fourth Modifier Code,171,172,2,X(2),192
-21,HCPCS_5_MDFR_CD,HCPCS-Fifth Modifier Code,173,174,2,X(2),195
-22,CLM_REV_APC_HIPP S_CD,Claim Revenue APC HIPPS-Code,175,179,5,X(5),201
-23,CLM_FAC_PRVDR_O SCAR_NUM,Claim Facility Provider OSCAR-Number,180,199,20,X(20),222
+_AMT",Claim Line Covered Paid Amount,148,164,17,-9(13).99,179
+17,HCPCS_1_MDFR_CD,HCPCS-First Modifier Code,165,166,2,X(2),182
+18,HCPCS_2_MDFR_CD,HCPCS-Second Modifier Code,167,168,2,X(2),185
+19,HCPCS_3_MDFR_CD,HCPCS-Third Modifier Code,169,170,2,X(2),188
+20,HCPCS_4_MDFR_CD,HCPCS-Fourth Modifier Code,171,172,2,X(2),191
+21,HCPCS_5_MDFR_CD,HCPCS-Fifth Modifier Code,173,174,2,X(2),194
+22,CLM_REV_APC_HIPP S_CD,Claim Revenue APC HIPPS-Code,175,179,5,X(5),200
+23,CLM_FAC_PRVDR_O SCAR_NUM,Claim Facility Provider OSCAR-Number,180,199,20,X(20),221

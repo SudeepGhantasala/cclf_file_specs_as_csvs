@@ -1,30 +1,30 @@
 Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
 1,"CUR_CLM_UNIQ
-_ID",Current Claim Unique Identifier,1,13,13,9(13),14
-2,BENE_MBI_ID,Medicare Beneficiary Identifier,14,24,11,X(11),26
-3,BENE_HIC_NUM,Beneficiary HIC Number,25,35,11,X(11),38
-4,CLM_LINE_NDC_ CD,NDC Code,36,46,11,X(11),50
-5,CLM_TYPE_CD,Claim Type Code,47,48,2,9(02),53
+_ID",Current Claim Unique Identifier,1,13,13,9(13),13
+2,BENE_MBI_ID,Medicare Beneficiary Identifier,14,24,11,X(11),25
+3,BENE_HIC_NUM,Beneficiary HIC Number,25,35,11,X(11),37
+4,CLM_LINE_NDC_ CD,NDC Code,36,46,11,X(11),49
+5,CLM_TYPE_CD,Claim Type Code,47,48,2,9(02),52
 6,"CLM_LINE_FROM
-_DT",Claim Line From Date,49,58,10,YYYY-MM- DD,64
+_DT",Claim Line From Date,49,58,10,YYYY-MM- DD,63
 7,"PRVDR_SRVC_ID
-_QLFYR_CD",Provider Service Identifier Qualifier Code,59,60,2,X(02),67
-8,CLM_SRVC_PRV DR_GNRC_ID_N UM,Claim Service Provider Generic ID Number,61,80,20,X(20),88
-9,CLM_DSPNSNG_ STUS_CD,Claim Dispensing Status Code,81,81,1,X(01),90
-10,CLM_DAW_PRO D_SLCTN_CD,Claim Dispense as Written (DAW) Product Selection Code,82,82,1,X(01),92
+_QLFYR_CD",Provider Service Identifier Qualifier Code,59,60,2,X(02),66
+8,CLM_SRVC_PRV DR_GNRC_ID_N UM,Claim Service Provider Generic ID Number,61,80,20,X(20),87
+9,CLM_DSPNSNG_ STUS_CD,Claim Dispensing Status Code,81,81,1,X(01),89
+10,CLM_DAW_PRO D_SLCTN_CD,Claim Dispense as Written (DAW) Product Selection Code,82,82,1,X(01),91
 11,"CLM_LINE_SRVC
-_UNIT_QTY",Claim Line Service Unit Quantity,83,106,24,-9(18).9999,117
+_UNIT_QTY",Claim Line Service Unit Quantity,83,106,24,-9(18).9999,116
 12,"CLM_LINE_DAYS
-_SUPLY_QTY",Claim Line Days’ Supply Quantity,107,115,9,9(09),127
+_SUPLY_QTY",Claim Line Days’ Supply Quantity,107,115,9,9(09),126
 13,"PRVDR_PRSBNG
-_ID_QLFYR_CD",Provider Prescribing ID Qualifier Code,116,117,2,X(02),130
+_ID_QLFYR_CD",Provider Prescribing ID Qualifier Code,116,117,2,X(02),129
 14,"CLM_PRSBNG_P RVDR_GNRC_ID
-_NUM",Claim Prescribing Provider Generic ID Number,118,137,20,X(20),151
+_NUM",Claim Prescribing Provider Generic ID Number,118,137,20,X(20),150
 15,"CLM_LINE_BENE
-_PMT_AMT",Claim Line Beneficiary Payment Amount,138,150,13,-9(9).99,165
-16,CLM_ADJSMT_T YPE_CD,Claim Adjustment Type Code,151,152,2,X(02),168
-17,CLM_EFCTV_DT,Claim Effective Date,153,162,10,YYYY-MM- DD,179
-18,CLM_IDR_LD_DT,Claim IDR Load Date,163,172,10,YYYY-MM- DD,190
-19,CLM_LINE_RX_S RVC_RFRNC_NU M,Claim Line Prescription Service Reference Number,173,184,12,9(12),203
-20,CLM_LINE_RX_FI LL_NUM,Claim Line Prescription Fill Number,185,193,9,X(09),213
-21,CLM_PHRMCY_S RVC_TYPE_CD,Claim Pharmacy Service Type Code,194,195,2,X(02),216
+_PMT_AMT",Claim Line Beneficiary Payment Amount,138,150,13,-9(9).99,164
+16,CLM_ADJSMT_T YPE_CD,Claim Adjustment Type Code,151,152,2,X(02),167
+17,CLM_EFCTV_DT,Claim Effective Date,153,162,10,YYYY-MM- DD,178
+18,CLM_IDR_LD_DT,Claim IDR Load Date,163,172,10,YYYY-MM- DD,189
+19,CLM_LINE_RX_S RVC_RFRNC_NU M,Claim Line Prescription Service Reference Number,173,184,12,9(12),202
+20,CLM_LINE_RX_FI LL_NUM,Claim Line Prescription Fill Number,185,193,9,X(09),212
+21,CLM_PHRMCY_S RVC_TYPE_CD,Claim Pharmacy Service Type Code,194,195,2,X(02),215

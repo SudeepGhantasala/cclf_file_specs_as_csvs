@@ -1,64 +1,64 @@
 Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
-1,CUR_CLM_UNI Q_ID,Current Claim Unique Identifier,1,13,13,9(13),14
-2,CLM_LINE_NU M,Claim Line Number,14,23,10,9(10),25
-3,BENE_MBI_ID,Medicare Beneficiary Identifier,24,34,11,X(11),37
-4,BENE_HIC_NU M,Beneficiary HIC Number,35,45,11,X(11),49
-5,CLM_TYPE_C D,Claim Type Code,46,47,2,9(02),52
-6,CLM_FROM_D T,Claim From Date,48,57,10,YYYY-MM- DD,63
-7,CLM_THRU_D T,Claim Thru Date,58,67,10,YYYY-MM- DD,74
-8,RNDRG_PRVD R_TYPE_CD,Rendering Provider Type Code,68,70,3,X(03),78
-9,RNDRG_PRVD R_FIPS_ST_C D,Rendering Provider FIPS State Code,71,72,2,X(02),81
-10,CLM_PRVDR_ SPCLTY_CD,Claim-Line Provider Specialty Code,73,74,2,X(02),84
-11,CLM_FED_TYP E_SRVC_CD,Claim Federal Type Service Code,75,75,1,X(01),86
-12,CLM_POS_CD,Claim Place of Service Code,76,77,2,X(02),89
-13,CLM_LINE_FR OM_DT,Claim Line From Date,78,87,10,YYYY-MM- DD,100
-14,CLM_LINE_TH RU_DT,Claim Line Thru Date,88,97,10,YYYY-MM- DD,111
-15,CLM_LINE_HC PCS_CD,HCPCS Code,98,102,5,X(05),117
-16,CLM_LINE_CV RD_PD_AMT,Claim Line NCH Payment Amount,103,117,15,X(15),133
-17,CLM_LINE_PR MRY_PYR_CD,Claim Primary Payer Code,118,118,1,X(01),135
-18,CLM_LINE_DG NS_CD,Diagnosis Code,119,125,7,X(07),143
-19,CLM_RNDRG_ PRVDR_TAX_ NUM,Claim Provider Tax Number,126,135,10,X(10),154
-20,RNDRG_PRVD R_NPI_NUM,Rendering Provider NPI Number,136,145,10,X(10),165
-21,CLM_CARR_P MT_DNL_CD,Claim Carrier Payment Denial Code,146,147,2,X(02),168
-22,CLM_PRCSG_I ND_CD,Claim-Line Processing Indicator Code,148,149,2,X(02),171
+1,CUR_CLM_UNI Q_ID,Current Claim Unique Identifier,1,13,13,9(13),13
+2,CLM_LINE_NU M,Claim Line Number,14,23,10,9(10),24
+3,BENE_MBI_ID,Medicare Beneficiary Identifier,24,34,11,X(11),36
+4,BENE_HIC_NU M,Beneficiary HIC Number,35,45,11,X(11),48
+5,CLM_TYPE_C D,Claim Type Code,46,47,2,9(02),51
+6,CLM_FROM_D T,Claim From Date,48,57,10,YYYY-MM- DD,62
+7,CLM_THRU_D T,Claim Thru Date,58,67,10,YYYY-MM- DD,73
+8,RNDRG_PRVD R_TYPE_CD,Rendering Provider Type Code,68,70,3,X(03),77
+9,RNDRG_PRVD R_FIPS_ST_C D,Rendering Provider FIPS State Code,71,72,2,X(02),80
+10,CLM_PRVDR_ SPCLTY_CD,Claim-Line Provider Specialty Code,73,74,2,X(02),83
+11,CLM_FED_TYP E_SRVC_CD,Claim Federal Type Service Code,75,75,1,X(01),85
+12,CLM_POS_CD,Claim Place of Service Code,76,77,2,X(02),88
+13,CLM_LINE_FR OM_DT,Claim Line From Date,78,87,10,YYYY-MM- DD,99
+14,CLM_LINE_TH RU_DT,Claim Line Thru Date,88,97,10,YYYY-MM- DD,110
+15,CLM_LINE_HC PCS_CD,HCPCS Code,98,102,5,X(05),116
+16,CLM_LINE_CV RD_PD_AMT,Claim Line NCH Payment Amount,103,117,15,X(15),132
+17,CLM_LINE_PR MRY_PYR_CD,Claim Primary Payer Code,118,118,1,X(01),134
+18,CLM_LINE_DG NS_CD,Diagnosis Code,119,125,7,X(07),142
+19,CLM_RNDRG_ PRVDR_TAX_ NUM,Claim Provider Tax Number,126,135,10,X(10),153
+20,RNDRG_PRVD R_NPI_NUM,Rendering Provider NPI Number,136,145,10,X(10),164
+21,CLM_CARR_P MT_DNL_CD,Claim Carrier Payment Denial Code,146,147,2,X(02),167
+22,CLM_PRCSG_I ND_CD,Claim-Line Processing Indicator Code,148,149,2,X(02),170
 23,"CLM_ADJSMT
-_TYPE_CD",Claim Adjustment Type Code,150,151,2,X(02),174
-24,CLM_EFCTV_ DT,Claim Effective Date,152,161,10,YYYY-MM- DD,185
-25,CLM_IDR_LD_ DT,Claim IDR Load Date,162,171,10,YYYY-MM- DD,196
-26,CLM_CNTL_N UM,Claim Control Number,172,211,40,X(40),237
-27,BENE_EQTBL_ BIC_HICN_NU M,Beneficiary Equitable BIC HICN Number,212,222,11,X(11),249
-28,CLM_LINE_AL OWD_CHRG_A MT,Claim Line Allowed Charges Amount,223,239,17,X(17),267
-29,CLM_LINE_SR VC_UNIT_QTY,Claim Line Service Unit Quantity,240,263,24,-9(18).9999,292
-30,HCPCS_1_MD FR_CD,HCPCS First Modifier Code,264,265,2,X(2),295
-31,HCPCS_2_MD FR_CD,HCPCS-Second Modifier Code,266,267,2,X(2),298
-32,HCPCS_3_MD FR_CD,HCPCS Third Modifier Code,268,269,2,X(2),301
-33,HCPCS_4_MD FR_CD,HCPCS Fourth Modifier Code,270,271,2,X(2),304
-34,HCPCS_5_MD FR_CD,HCPCS Fifth Modifier Code,272,273,2,X(2),307
-35,CLM_DISP_CD,Claim Disposition Code,274,275,2,X(2),310
+_TYPE_CD",Claim Adjustment Type Code,150,151,2,X(02),173
+24,CLM_EFCTV_ DT,Claim Effective Date,152,161,10,YYYY-MM- DD,184
+25,CLM_IDR_LD_ DT,Claim IDR Load Date,162,171,10,YYYY-MM- DD,195
+26,CLM_CNTL_N UM,Claim Control Number,172,211,40,X(40),236
+27,BENE_EQTBL_ BIC_HICN_NU M,Beneficiary Equitable BIC HICN Number,212,222,11,X(11),248
+28,CLM_LINE_AL OWD_CHRG_A MT,Claim Line Allowed Charges Amount,223,239,17,X(17),266
+29,CLM_LINE_SR VC_UNIT_QTY,Claim Line Service Unit Quantity,240,263,24,-9(18).9999,291
+30,HCPCS_1_MD FR_CD,HCPCS First Modifier Code,264,265,2,X(2),294
+31,HCPCS_2_MD FR_CD,HCPCS-Second Modifier Code,266,267,2,X(2),297
+32,HCPCS_3_MD FR_CD,HCPCS Third Modifier Code,268,269,2,X(2),300
+33,HCPCS_4_MD FR_CD,HCPCS Fourth Modifier Code,270,271,2,X(2),303
+34,HCPCS_5_MD FR_CD,HCPCS Fifth Modifier Code,272,273,2,X(2),306
+35,CLM_DISP_CD,Claim Disposition Code,274,275,2,X(2),309
 36,"CLM_DGNS_1
-_CD",Claim Diagnosis First Code,276,282,7,X(7),318
+_CD",Claim Diagnosis First Code,276,282,7,X(7),317
 37,"CLM_DGNS_2
-_CD",Claim Diagnosis Second Code,283,289,7,X(7),326
+_CD",Claim Diagnosis Second Code,283,289,7,X(7),325
 38,"CLM_DGNS_3
-_CD",Claim Diagnosis Third Code,290,296,7,X(7),334
+_CD",Claim Diagnosis Third Code,290,296,7,X(7),333
 39,"CLM_DGNS_4
-_CD",Claim Diagnosis Fourth Code,297,303,7,X(7),342
+_CD",Claim Diagnosis Fourth Code,297,303,7,X(7),341
 40,"CLM_DGNS_5
-_CD",Claim Diagnosis Fifth Code,304,310,7,X(7),350
+_CD",Claim Diagnosis Fifth Code,304,310,7,X(7),349
 41,"CLM_DGNS_6
-_CD",Claim Diagnosis Sixth Code,311,317,7,X(7),358
+_CD",Claim Diagnosis Sixth Code,311,317,7,X(7),357
 42,"CLM_DGNS_7
-_CD",Claim Diagnosis Seventh Code,318,324,7,X(7),366
+_CD",Claim Diagnosis Seventh Code,318,324,7,X(7),365
 43,"CLM_DGNS_8
-_CD",Claim Diagnosis Eighth Code,325,331,7,X(7),374
+_CD",Claim Diagnosis Eighth Code,325,331,7,X(7),373
 44,"DGNS_PRCDR
-_ICD_IND",ICD Version Indicator,332,332,1,X(1),376
+_ICD_IND",ICD Version Indicator,332,332,1,X(1),375
 45,"CLM_DGNS_9
-_CD",Claim Diagnosis Ninth Code,333,339,7,X(7),384
-46,CLM_DGNS_1 0_CD,Claim Diagnosis Tenth Code,340,346,7,X(7),392
-47,CLM_DGNS_1 1_CD,Claim Diagnosis Eleventh Code,347,353,7,X(7),400
-48,CLM_DGNS_1 2_CD,Claim Diagnosis Twelfth Code,354,360,7,X(7),408
-49,HCPCS_BETO S_CD,HCPCS-BETOS Code,361,363,3,X(3),412
-50,CLM_RNDRG_ PRVDR_NPI_N UM,Claim Rendering Provider NPI Number,364,373,10,X(10),423
-51,CLM_RFRG_P RVDR_NPI_NU M,Claim Referring Provider NPI Number,374,383,10,X(10),434
-52,CLM_CNTRCT R_NUM,Claim contractor number,384,388,5,X(5),440
+_CD",Claim Diagnosis Ninth Code,333,339,7,X(7),383
+46,CLM_DGNS_1 0_CD,Claim Diagnosis Tenth Code,340,346,7,X(7),391
+47,CLM_DGNS_1 1_CD,Claim Diagnosis Eleventh Code,347,353,7,X(7),399
+48,CLM_DGNS_1 2_CD,Claim Diagnosis Twelfth Code,354,360,7,X(7),407
+49,HCPCS_BETO S_CD,HCPCS-BETOS Code,361,363,3,X(3),411
+50,CLM_RNDRG_ PRVDR_NPI_N UM,Claim Rendering Provider NPI Number,364,373,10,X(10),422
+51,CLM_RFRG_P RVDR_NPI_NU M,Claim Referring Provider NPI Number,374,383,10,X(10),433
+52,CLM_CNTRCT R_NUM,Claim contractor number,384,388,5,X(5),439

@@ -1,34 +1,34 @@
 Element #,field_label,field_name,Start Position,End Position,Data Length,Format,new_end_position
-1,BENE_MBI_ID,Medicare Beneficiary Identifier,1,11,11,X(11),12
-2,BENE_HIC_NUM,Beneficiary HIC Number,12,22,11,X(11),24
-3,BENE_FIPS_STA TE_CD,Beneficiary FIPS State Code,23,24,2,9(02),27
-4,BENE_FIPS_CNT Y_CD,Beneficiary FIPS County Code,25,27,3,9(03),31
-5,BENE_ZIP_CD,Beneficiary ZIP Code,28,32,5,X(05),37
-6,BENE_DOB,Beneficiary Date of Birth,33,42,10,YYYY- MM-DD,48
-7,BENE_SEX_CD,Beneficiary Sex Code,43,43,1,X(01),50
-8,BENE_RACE_CD,Beneficiary Race Code,44,44,1,X(01),52
-9,BENE_AGE,Beneficiary Age,45,47,3,9(03),56
-10,BENE_MDCR_ST US_CD,Beneficiary Medicare Status Code,48,49,2,X(02),59
-11,BENE_DUAL_ST US_CD,Beneficiary Dual Status Code,50,51,2,X(02),62
-12,BENE_DEATH_D T,Beneficiary Death Date,52,61,10,YYYY- MM-DD,73
+1,BENE_MBI_ID,Medicare Beneficiary Identifier,1,11,11,X(11),11
+2,BENE_HIC_NUM,Beneficiary HIC Number,12,22,11,X(11),23
+3,BENE_FIPS_STA TE_CD,Beneficiary FIPS State Code,23,24,2,9(02),26
+4,BENE_FIPS_CNT Y_CD,Beneficiary FIPS County Code,25,27,3,9(03),30
+5,BENE_ZIP_CD,Beneficiary ZIP Code,28,32,5,X(05),36
+6,BENE_DOB,Beneficiary Date of Birth,33,42,10,YYYY- MM-DD,47
+7,BENE_SEX_CD,Beneficiary Sex Code,43,43,1,X(01),49
+8,BENE_RACE_CD,Beneficiary Race Code,44,44,1,X(01),51
+9,BENE_AGE,Beneficiary Age,45,47,3,9(03),55
+10,BENE_MDCR_ST US_CD,Beneficiary Medicare Status Code,48,49,2,X(02),58
+11,BENE_DUAL_ST US_CD,Beneficiary Dual Status Code,50,51,2,X(02),61
+12,BENE_DEATH_D T,Beneficiary Death Date,52,61,10,YYYY- MM-DD,72
 13,"BENE_RNG_BGN
-_DT",Date beneficiary enrolled in Hospice,62,71,10,YYYY- MM-DD,84
+_DT",Date beneficiary enrolled in Hospice,62,71,10,YYYY- MM-DD,83
 14,"BENE_RNG_END
-_DT",Date beneficiary ended Hospice,72,81,10,YYYY- MM-DD,95
-15,BENE_1ST_NAM E,Beneficiary First Name,82,111,30,X(30),126
-16,BENE_MIDL_NA ME,Beneficiary Middle Name,112,126,15,X(15),142
-17,BENE_LAST_NA ME,Beneficiary Last Name,127,166,40,X(40),183
-18,BENE_ORGNL_E NTLMT_RSN_CD,Beneficiary Original Entitlement Reason Code,167,167,1,X(01),185
-19,BENE_ENTLMT_ BUYIN_IND,Beneficiary Entitlement Buy- in Indicator,168,168,1,X(01),187
-20,BENE_PART_A_E NRLMT_BGN_DT,Bene Entitlement Part A Begin Date,169,178,10,YYYY- MM-DD,198
-21,BENE_PART_B_E NRLMT_BGN_DT,Bene Entitlement Part B Begin Date,179,188,10,YYYY- MM-DD,209
-22,BENE_LINE_1_A DR,Beneficiary Derived Mailing Line One Address,189,233,45,X(45),255
-23,BENE_LINE_2_A DR,Beneficiary Derived Mailing Line Two Address,234,278,45,X(45),301
-24,BENE_LINE_3_A DR,Beneficiary Derived Mailing Line Three Address,279,318,40,X(40),342
-25,BENE_LINE_4_A DR,Beneficiary Derived Mailing Line Four Address,319,358,40,X(40),383
-26,BENE_LINE_5_A DR,Beneficiary Derived Mailing Line Five Address,359,398,40,X(40),424
-27,BENE_LINE_6_A DR,Beneficiary Derived Mailing Line Six Address,399,438,40,X(40),465
-28,GEO_ZIP_PLC_N AME,Beneficiary City,439,538,100,X(100),566
-29,GEO_USPS_STA TE_CD,Beneficiary State,539,540,2,X(2),569
-30,GEO_ZIP5_CD,Beneficiary Zip Code,541,545,5,X(5),575
-31,GEO_ZIP4_CD,Beneficiary Zip Code Ext.,546,549,4,X(4),580
+_DT",Date beneficiary ended Hospice,72,81,10,YYYY- MM-DD,94
+15,BENE_1ST_NAM E,Beneficiary First Name,82,111,30,X(30),125
+16,BENE_MIDL_NA ME,Beneficiary Middle Name,112,126,15,X(15),141
+17,BENE_LAST_NA ME,Beneficiary Last Name,127,166,40,X(40),182
+18,BENE_ORGNL_E NTLMT_RSN_CD,Beneficiary Original Entitlement Reason Code,167,167,1,X(01),184
+19,BENE_ENTLMT_ BUYIN_IND,Beneficiary Entitlement Buy- in Indicator,168,168,1,X(01),186
+20,BENE_PART_A_E NRLMT_BGN_DT,Bene Entitlement Part A Begin Date,169,178,10,YYYY- MM-DD,197
+21,BENE_PART_B_E NRLMT_BGN_DT,Bene Entitlement Part B Begin Date,179,188,10,YYYY- MM-DD,208
+22,BENE_LINE_1_A DR,Beneficiary Derived Mailing Line One Address,189,233,45,X(45),254
+23,BENE_LINE_2_A DR,Beneficiary Derived Mailing Line Two Address,234,278,45,X(45),300
+24,BENE_LINE_3_A DR,Beneficiary Derived Mailing Line Three Address,279,318,40,X(40),341
+25,BENE_LINE_4_A DR,Beneficiary Derived Mailing Line Four Address,319,358,40,X(40),382
+26,BENE_LINE_5_A DR,Beneficiary Derived Mailing Line Five Address,359,398,40,X(40),423
+27,BENE_LINE_6_A DR,Beneficiary Derived Mailing Line Six Address,399,438,40,X(40),464
+28,GEO_ZIP_PLC_N AME,Beneficiary City,439,538,100,X(100),565
+29,GEO_USPS_STA TE_CD,Beneficiary State,539,540,2,X(2),568
+30,GEO_ZIP5_CD,Beneficiary Zip Code,541,545,5,X(5),574
+31,GEO_ZIP4_CD,Beneficiary Zip Code Ext.,546,549,4,X(4),579
